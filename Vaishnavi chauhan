@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigationbar</title>
+    <link rel="stylesheet" href="vaa/style.css">
+</head>
+<body>
+    <ul>
+        
+        <li class="active"><a href="#">MENTORS</a></li>
+        <li><a href="#">STORE</a></li>
+        <li><a href="#">MOCK OPENINGS</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <div class="search">
+            <form>
+                <input type="text" placeholder="Search....">
+                <button>search</button>
+            </form>
+        </div>
+    </ul>
+</body>
+</html>
