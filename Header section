@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    .header {
+        background-image:linear-gradient(to bottom right,#69d5b1 50% ,#fff 0);
+        height: 700px;
+        width: 330%;
+       }
+
+
+.container {
+    width: 100% ;
+    display: flex;
+    justify-content: space-around;
+      
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.flexone{
+    font-family: Helvetica ,Arial,sans-serif;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+           
+    .heading{
+        font-size: 5.25em;
+        box-sizing: inherit;
+        display: flex;
+        line-height: 1.25;
+        text-align: center;
+        font-style: normal;
+        color:#fff;
+        text-transform: uppercase;
+        letter-spacing: .05em;
+        font-family:sans-serif;
+        font-weight: 600;
+    }
+    .para{
+        font-size: 1.5em;
+        color:#fff;
+        font-family: Open Sans,sans-serif;
+        font-weight: 100;
+        margin-bottom: 1rem;
+        line-height: 1.25;
+    }
+
+    .button {
+    color: white;
+  text-transform: uppercase;
+  background-color: #00bc89;
+  cursor: pointer;
+  font-size: 20px;
+ box-shadow:0 4px rgb(60, 63, 61);
+ padding-left: 1.5rem;
+ padding-right: 1.5rem;
+ padding-top: .75rem;
+ padding-bottom: .75rem;
+ border-radius: .26rem;
+
+}
+
+.button:hover {background-color:  #034404;}
+  
+
+
+.flexone{flex:1;}
+.flextwo{flex:1;}
+</style>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="flexone">
+                 <h1 class="heading">Lorem <br>ipsum </h1>
+                 <p class="para">Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. </p>
+                 <button class="button">find a mentor</button></div>
+            </div>
+            <div class="flextwo"></div><!--space for logo-->
+        </div>
+    </header>
+</body>
+</html>
