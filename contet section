@@ -1,0 +1,86 @@
+<!DOCUMENT HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>CONTENT SECTION</title>
+<script type="text/javascript"></script>
+<script src='https://kit.fontawesome.com/a076d5399.js' crossorigin='anonymous'></script>
+<style>
+.button {
+background-color:black;
+border: 2px solid black;;
+color:white;
+padding: 15px 32px;
+font-size: 12px;
+cursor: pointer;
+}
+
+html { height: 200%;
+}
+body { background-image: linear-gradient(to bottom right,#33475b, #0033CC, #FF77CC ,rgb(255, 122, 89)); }
+
+.container {
+display : flex;
+align-items:center;
+justify-content:center
+}
+img {
+max-width:100%
+}
+.text {
+font-size:20px;
+padding-left:20px;
+}
+div.a {
+text-align: right; 
+margin-bottom: -80px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="a">
+<div class="container">
+<div class="text">
+<img>
+
+</div>
+<div class="text">
+<u><p style="color:black" ><font face="verdana" size="7">CODING COACH</font></p></u>
+</div>
+</div>
+<h3><center>Connecting developers with mentors worldwide</center></h3>
+<center><button class="button" >FIND MENTORS</button></center>
+<h1><i class="fa fa-chalkboard-teacher"></i> ABOUT</h1>
+<h3><p>coding coach is a free, open source platform which aims </br>to connect
+ software developers and mentors all over the world</br>To ensure youth 12 and under also
+ have acess to</br> virtual mentoring in this moment.</br>
+ It is a safe and monitored mentoring platform.</p></h3>
+ <center><h1>Watch Informational Webinar Below</h1>
+ <video width="400" controls>
+<source src="mov_bb4.mp4" type="video/mp4">
+<source src="mov_bb4.mp4" type="video/ogg">
+</video>
+ <a href="https://youtu.be/1t0_D7UcfgU" target="_blank"></a></center>
+ <center><h1>Get Registered Immediately!!!<h1>
+ <form>
+ <table>
+ <tr>
+ <td>
+ Email Address:
+ </td>
+ <td><input type="text" email="">
+ </td>
+ </tr>
+ <tr>
+ <td>Password:
+ </td>
+ <td><input type="password" name="">
+ </td>
+ </tr>
+ </table><center>
+ </form>
+ </body>
+</html>
