@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-#preloader {
+.preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
 }
 
-#preloader:before {
+.preloader:before {
   content: "";
   position: fixed;
   top: calc(50% - 30px);
@@ -110,7 +110,56 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-#header {
+*{
+  margin:0;
+  padding:0;
+}
+#header{
+  background-image:linear-gradient(to bottom right,#69d5b1 50% ,#fff 0);
+  height: 700px;
+        width: 330%;
+}
+h1{
+      font-size: 5.25em;
+      box-sizing: inherit;
+      display: flex;
+      line-height: 1.25;
+      text-align: center;
+      font-style: normal;
+      color:white;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      font-family:"Poppins", sans-serif;
+      font-weight: 600;
+  }
+  p{
+      font-size: 1.5em;
+      color:white;
+      font-family:"Poppins", sans-serif ;
+      font-weight: 100;
+      margin-bottom: 1rem;
+      line-height: 1.25;
+  }
+  .button {
+    color: white;
+  text-transform: uppercase;
+  background-color:  #2487ce;
+  cursor: pointer;
+  font-size: 20px;
+ box-shadow:0 4px rgb(60, 63, 61);
+ padding-left: 1.5rem;
+ padding-right: 1.5rem;
+ padding-top: .75rem;
+ padding-bottom: .75rem;
+ border-radius: .26rem;
+
+}
+
+.button:hover {background-color:  #3194db;;}
+  
+
+
+.header {
   transition: all 0.5s;
   background: #fff;
   z-index: 997;
@@ -118,12 +167,12 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid #e6f2fb;
 }
 
-#header.header-scrolled {
+.header.header-scrolled {
   border-color: #fff;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
 
-#header .logo {
+.header .logo {
   font-size: 28px;
   margin: 0;
   padding: 0;
@@ -133,11 +182,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#header .logo a {
+.header .logo a {
   color: #16507b;
 }
 
-#header .logo img {
+.header .logo img {
   max-height: 40px;
 }
 
