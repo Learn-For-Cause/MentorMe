@@ -1,0 +1,163 @@
+# MentorMe
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Menter</title>
+    <link rel="stylesheet" href="menter.css">
+    
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li class="item"><a href="#">HOME</a></li>
+            <li class="item"><a href="#">MENTORS</a></li>
+            <li class="item"><a href="#">COURSES</a></li>
+            
+            <li class="item"><a href="#">MOCK OPENINGS</a></li>
+            
+            
+            <li class="item"><a href="#">EVENTS</a></li>
+            
+            <li class="item"><a href="#">ABOUT</a></li>
+        </ul>
+        <form >
+            <input type="text"placeholder="   Search......  ">
+            <button>Search</button>
+        </form>
+    </nav>
+    <section id="home">
+        <h1 class="h_primary">Welcome To Mentorship Portal</h1>
+        <p>Connecting students to careers <br>through mentorship</p>
+        <a href="https://rzp.io/l/cGXOgr8Yh">
+        <button class="btn">Find your Menter</button>
+    </a>
+    </section>
+    <section class="service">
+        <h1 class="h_primary center"> Course Contains</h1>
+        <div id="service">
+            <div class="box">
+                <img src="java10.jpg" alt="image">
+                <ul>
+              <li>  <button class="b">Join now</button></li>
+            </ul>
+                <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempore accusamus sapiente.</p>
+            </div>
+            <div class="box">
+                <img src="java02.jpg" alt="image">
+                <ul>
+              <li>  <button class="b">Join now</button></li>
+            </ul>
+                <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempore accusamus sapiente.</p>
+            </div>
+            <div class="box">
+                <img src="java03.jpg" alt="image">
+                <ul>
+               <li> <button class="b">Join now</button></li>
+            </ul>
+                <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempore accusamus sapiente.</p>
+            </div>
+            
+        </div>
+    </section>
+    <section id="client">
+        <h1 class="h_primary center">Top Mentors</h1>
+        <div id="clients">
+            <div id="clients-item">
+                <img src="women.jpg" alt="image">
+                <h3 class="h_secendary center">Daniella Senior</h3>
+                <p class="center">Founder & CEO, Colada Shop, Bresca </p>
+            </div>
+            <div id="clients-item">
+                <img src="old.jpg" alt="image">
+                <h3 class="h_secendary center">Ellen Yin</h3>
+                <p class="center">Co-Owner and Founder, High Street Hospitality Group </p>
+            </div>
+            <div id="clients-item">
+                <img src="pic.jpg" alt="image">
+                <h3 class="h_secendary center">Hari Pulapaka</h3>
+                <p class="center">Chef, Educator </p>
+            </div>
+            <div id="clients-item">
+                <img src="img3.jpg" alt="image">
+                <h3 class="h_secendary center">Michael Schiller</h3>
+                <p class="center"> Finance Expert </p>
+            </div>
+            <div id="clients-item">
+                <img src="img2.jpg" alt="image">
+                <h3 class="h_secendary center">Mary Sue Milliken</h3>
+                <p class="center">Chef, Co-Owner, Border Grill, Socalo </p>
+            </div>
+            <div id="clients-item">
+                <img src="img1.jpg" alt="image">
+                <h3 class="h_secendary center">Kisha Washington</h3>
+                <p class="center">Executive Chef, Owner, </p>
+            </div>
+        </div>
+       
+    </section>
+    
+    <section id="social">
+        <h1 class="h_primary center">Our Clients</h1>
+        <div id="social-media">
+            <div class="social-item">
+                <img src="logo1.png" alt="this is image">
+            </div>
+            <div class="social-item">
+                <img src="logo2.png" alt="this is image">
+            </div>
+            <div class="social-item">
+                <img src="logo3.png" alt="this is image">
+            </div>
+            <div class="social-item">
+                <img src="logo4.png" alt="this is image">
+            </div>
+            <div class="social-item">
+                <img src="logo5.png" alt="this is image">
+            </div>
+        </div>
+        
+    </section>        
+                        
+    <section id="contact">
+        <h1 class="h_primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name"
+                    placeholder="Enter Your name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="name">Email:</label>
+                    <input type="text" email="name" id="email"
+                    placeholder="Enter Your mail id">
+                </div>
+                
+                <div class="form-group">
+                    <label for="name">Phone:</label>
+                    <input type="text" phone="name" id="phone"
+                    placeholder="Enter Your  number">
+                </div>
+                <div class="form-group">
+                    <label for="name">Message:</label>
+                    
+                    <textarea name="Message" id="message" cols="20" rows="8"></textarea>
+                </div>
+                <ul>
+               <li> <button class="bn">Submit</button></li>
+            </ul>
+                </div>
+            </form>
+        </div>
+    </section>
+<footer>
+    <div class="center">
+        copyright &copy; www.menter.com. all rights reserved!
+    </div>
+</footer>
+</body>
+</html>
