@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #124265;
@@ -1875,4 +1875,24 @@ section {
   background: #3194db;
   color: #fff;
   text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Signup
+--------------------------------------------------------------*/
+
+#signup {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  position: relative;
+}
+
+#signup h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 72px;
+  color: #124265;
+  font-family: "Poppins", sans-serif;
 }
