@@ -1896,3 +1896,8 @@ section {
   color: #124265;
   font-family: "Poppins", sans-serif;
 }
+
+#signup .btn {
+  background: #2487ce;
+  border-color: #2487ce;
+}
